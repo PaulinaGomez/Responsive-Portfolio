@@ -1,0 +1,235 @@
+body{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-image: url("../images/congruent_pentagon.png");
+    background-color: #666666;
+}
+
+header {
+    height: 0px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    margin-bottom: 30px;
+    padding-bottom: 66px;
+    border-bottom: 2px solid #cccccc;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15pt;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#logo {
+    background-color: #4aaaa5;
+    width: 179px;
+    float: left;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    margin-left: 20%;
+    
+}
+
+nav {
+    height: 66px;
+    margin-right: 200px;
+    float: right;
+}
+
+
+.btn {
+    margin-top: 23px;
+    margin-right: 10px;
+    float: left;
+    border-right: 2px solid #dddddd;
+    padding-right: 6px;
+}
+
+.wrapper {
+    width: 1024px;
+    margin:0 auto;
+}
+
+section {
+    background: #ffffff;
+    margin: 0 auto;
+    margin-bottom: 66px;
+    border: 2px solid #dddddd;
+}
+
+article {
+    padding: 30px; 
+}
+
+img {
+    float: left;
+    margin: 20px;
+    width: 400px;
+    height: 200px;
+}
+
+.footer {
+    height: 50px;
+    padding-top: 16px;
+    clear: both;
+    overflow:auto;
+    background-color: #666666;
+    text-align: center;
+    color: #ffffff;
+    border-top: 8px solid #4aaaa5;
+}
+
+a:link {
+    color: #777777;
+    text-decoration: none;    
+}
+
+a:visited {
+    color: #00FF00;
+}
+
+a:hover { 
+    color: #ffffff;
+    background-color: #4aaaa5; 
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
+}
+
+a:active {
+    color: rgb(0, 255, 179);
+}
+
+
+input[type=text], select, textarea {
+    width: 500px; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+#image-cont {
+    position: relative;
+    display: inline-block;
+}
+
+#img1{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    float: none;
+    margin: 0px;
+
+}
+
+.names {
+    background-color: #4aaaa5;
+    width: 260px;
+    color: #ffffff;
+    padding: 20px;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+
+@media screen and (max-width: 980px) {
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    #logo {
+        margin-left: 15%;
+    }
+    .btn {
+        margin-top: 23px;
+        margin-right: auto;
+        padding-right: 6px;
+    }
+
+    nav {
+        margin-right: 5%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #img1{
+        ax-width: 100%;
+        height: auto;
+        float: none;
+        margin: 0px;
+    }
+    .main-content{
+        width: 100%;
+        padding: 20px;
+    }
+
+}
+  
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+      }
+
+      #logo {
+        margin-left: 5%;
+    }
+    }
+
+@media screen and (max-width: 640px) {
+        .wrapper {
+          width: 100%;
+          padding: 20px;
+        }
+
+        #logo {
+            margin-left: 0%;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+       
+    }
